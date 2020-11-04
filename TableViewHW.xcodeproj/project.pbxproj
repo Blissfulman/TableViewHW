@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		CE5F600725525A210035FE88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F600625525A210035FE88 /* AppDelegate.swift */; };
-		CE5F600925525A210035FE88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F600825525A210035FE88 /* SceneDelegate.swift */; };
-		CE5F600B25525A210035FE88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F600A25525A210035FE88 /* ViewController.swift */; };
+		CE5F600B25525A210035FE88 /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F600A25525A210035FE88 /* PersonListViewController.swift */; };
 		CE5F600E25525A210035FE88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5F600C25525A210035FE88 /* Main.storyboard */; };
 		CE5F601025525A220035FE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5F600F25525A220035FE88 /* Assets.xcassets */; };
 		CE5F601325525A220035FE88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5F601125525A220035FE88 /* LaunchScreen.storyboard */; };
+		CE5F602025525E880035FE88 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F601F25525E880035FE88 /* Person.swift */; };
+		CE5F6022255261120035FE88 /* DetailedPersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F6021255261120035FE88 /* DetailedPersonListViewController.swift */; };
+		CE5F6024255261BD0035FE88 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F6023255261BD0035FE88 /* DataManager.swift */; };
+		CE5F602625526CAF0035FE88 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F602525526CAF0035FE88 /* PersonDetailsViewController.swift */; };
+		CE5F6028255275DD0035FE88 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F6027255275DD0035FE88 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE5F600325525A210035FE88 /* TableViewHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5F600625525A210035FE88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE5F600825525A210035FE88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE5F600A25525A210035FE88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE5F600A25525A210035FE88 /* PersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewController.swift; sourceTree = "<group>"; };
 		CE5F600D25525A210035FE88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE5F600F25525A220035FE88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5F601225525A220035FE88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5F601425525A220035FE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5F601F25525E880035FE88 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CE5F6021255261120035FE88 /* DetailedPersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPersonListViewController.swift; sourceTree = "<group>"; };
+		CE5F6023255261BD0035FE88 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CE5F602525526CAF0035FE88 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		CE5F6027255275DD0035FE88 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,59 @@
 		CE5F600525525A210035FE88 /* TableViewHW */ = {
 			isa = PBXGroup;
 			children = (
-				CE5F600625525A210035FE88 /* AppDelegate.swift */,
-				CE5F600825525A210035FE88 /* SceneDelegate.swift */,
-				CE5F600A25525A210035FE88 /* ViewController.swift */,
-				CE5F600C25525A210035FE88 /* Main.storyboard */,
-				CE5F600F25525A220035FE88 /* Assets.xcassets */,
-				CE5F601125525A220035FE88 /* LaunchScreen.storyboard */,
-				CE5F601425525A220035FE88 /* Info.plist */,
+				CE5F601A25525E0D0035FE88 /* View Controllers */,
+				CE5F601E25525E550035FE88 /* Models */,
+				CE5F601B25525E200035FE88 /* Storyboards */,
+				CE5F601C25525E330035FE88 /* Additional Files */,
+				CE5F601D25525E420035FE88 /* Resourses */,
 			);
 			path = TableViewHW;
+			sourceTree = "<group>";
+		};
+		CE5F601A25525E0D0035FE88 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE5F6027255275DD0035FE88 /* TabBarController.swift */,
+				CE5F600A25525A210035FE88 /* PersonListViewController.swift */,
+				CE5F602525526CAF0035FE88 /* PersonDetailsViewController.swift */,
+				CE5F6021255261120035FE88 /* DetailedPersonListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CE5F601B25525E200035FE88 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE5F600C25525A210035FE88 /* Main.storyboard */,
+				CE5F601125525A220035FE88 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE5F601C25525E330035FE88 /* Additional Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE5F600625525A210035FE88 /* AppDelegate.swift */,
+				CE5F601425525A220035FE88 /* Info.plist */,
+			);
+			path = "Additional Files";
+			sourceTree = "<group>";
+		};
+		CE5F601D25525E420035FE88 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				CE5F600F25525A220035FE88 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		CE5F601E25525E550035FE88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE5F601F25525E880035FE88 /* Person.swift */,
+				CE5F6023255261BD0035FE88 /* DataManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5F600B25525A210035FE88 /* ViewController.swift in Sources */,
+				CE5F602025525E880035FE88 /* Person.swift in Sources */,
+				CE5F6024255261BD0035FE88 /* DataManager.swift in Sources */,
+				CE5F602625526CAF0035FE88 /* PersonDetailsViewController.swift in Sources */,
+				CE5F600B25525A210035FE88 /* PersonListViewController.swift in Sources */,
+				CE5F6028255275DD0035FE88 /* TabBarController.swift in Sources */,
 				CE5F600725525A210035FE88 /* AppDelegate.swift in Sources */,
-				CE5F600925525A210035FE88 /* SceneDelegate.swift in Sources */,
+				CE5F6022255261120035FE88 /* DetailedPersonListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TableViewHW/Info.plist;
+				INFOPLIST_FILE = "TableViewHW/Additional Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,7 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.Evgeny.TableViewHW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TableViewHW/Info.plist;
+				INFOPLIST_FILE = "TableViewHW/Additional Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.Evgeny.TableViewHW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
